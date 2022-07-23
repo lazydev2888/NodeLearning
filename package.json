@@ -4,6 +4,7 @@
   "description": "This is Node Learning ",
   "main": "index.js",
   "scripts": {
+    "start":"node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,5 +12,9 @@
     "url": "NodeLearning"
   },
   "author": "Lazydev",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.19",
+    "pokemon": "^2.3.3"
+  }
 }
